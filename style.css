@@ -15,18 +15,19 @@ h1{
 	font-family: 'Saira Extra Condensed', sans-serif;
 }
 
-.purple{
-	color :#6e1d57;
+h2{
+	font-size: 5rem;
+	font-weight: 200;
+    line-height: 1;
+	font-family: 'Saira Extra Condensed', sans-serif;
 }
 
-section{
-	/*display: flex;*/
-    align-items: center;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    max-width: 75rem;
+.purple{
+	color : #6e1d57;
+}
+
+.pink{
+	color : #dd176b;
 }
 
 .subHeading{
@@ -44,4 +45,41 @@ section{
     border-radius: 100%;
     font-size: 1.5rem;
     margin-right: 1.5rem;
+}
+
+.leftColumn{
+	color: white;
+	background-color :#6e1d57;
+	min-height: 100vh;
+}
+
+.rightColumn{
+	background-color: red;
+}
+
+hr{
+	border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    overflow: visible;
+}
+
+#sideBar{
+	background-color: blue;
+	vertical-align: center;
+	min-height: 100vh;
+}
+
+.contentSpace{
+	display: flex;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    max-width: 75rem;
+    min-height: 100vh;
+}
+
+navbar-item a:hover {
+  color: red;
 }
