@@ -1,0 +1,51 @@
+h1{
+	color: white;
+	font-size: 2.5rem;
+	margin-bottom: 2px;
+}
+
+p{
+	color: white;
+}
+
+body{
+	background-color: pink;
+}
+
+.capitalize{
+	text-transform: capitalize;
+}
+
+section{
+	min-height: 50vh;
+}
+
+@media (max-width: 900px){
+	body{
+		background-color: orange;
+	}
+
+	h1{
+		font-size:1.5rem;
+	}
+
+	p{
+		font-size: 0.7rem;
+	}
+
+	svg{
+		width: 2rem;
+		height: 2rem;
+	}
+}
+
+@media (max-width: 540px){
+
+	body{
+		background-color: blue;
+	}
+
+	section.container-fluid{
+		min-height: 100vh;
+	}
+}
